@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bloom Habit Coach case study by Ines Duarte — designing a gentle habit-forming mobile experience.">
+  <title>Bloom Habit Coach · Ines Duarte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav-bar">
+      <a class="nav-brand" href="index.html">Ines Duarte</a>
+      <nav aria-label="Secondary navigation">
+        <ul>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="project-hero">
+    <div class="content">
+      <a class="back-link" href="index.html#projects">← Back to projects</a>
+      <h1>Bloom Habit Coach — nurturing gentle progress</h1>
+      <p class="project-meta">
+        <span>Role: Product Designer</span>
+        <span>Timeline: 6 weeks</span>
+        <span>Team: 3 designers, 1 developer</span>
+      </p>
+      <p>Designed a habit-forming mobile experience that pairs compassionate nudges with mood insights so that young professionals can sustain wellness rituals without guilt.</p>
+    </div>
+  </section>
+
+  <main class="project-layout">
+    <section>
+      <h2>Opportunity</h2>
+      <p>User research revealed that most apps made participants feel judged when they broke a streak. We reframed success around reflection and self-kindness, creating a product vision grounded in emotional wellbeing.</p>
+    </section>
+    <section>
+      <h2>Highlights</h2>
+      <ul>
+        <li>Established a soft visual language using dusty pinks, lavender gradients and rounded components to convey warmth.</li>
+        <li>Introduced “check-in stories” that let users jot down feelings, unlocking adaptive suggestions for the next day.</li>
+        <li>Designed a progress garden dashboard with growth rings and subtle motion to celebrate small wins.</li>
+        <li>Partnered with engineering to hand off a Figma design system covering states, motion specs and accessibility tokens.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Impact</h2>
+      <p>After beta testing with twelve participants, daily engagement increased by 28% and qualitative feedback highlighted how the voice felt “supportive, not preachy.” The work informed Bloom Studio’s broader wellbeing product roadmap.</p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Ines Duarte. Crafted with empathy.
+  </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>

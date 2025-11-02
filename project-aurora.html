@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Project Aurora case study by Ines Duarte — creating a compassionate telehealth platform for new parents.">
+  <title>Project Aurora · Ines Duarte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav-bar">
+      <a class="nav-brand" href="index.html">Ines Duarte</a>
+      <nav aria-label="Secondary navigation">
+        <ul>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="project-hero">
+    <div class="content">
+      <a class="back-link" href="index.html#projects">← Back to projects</a>
+      <h1>Project Aurora — telehealth with heart</h1>
+      <p class="project-meta">
+        <span>Role: UX Researcher & Product Designer</span>
+        <span>Timeline: 10 weeks</span>
+        <span>Tools: FigJam, Figma, Maze, Notion</span>
+      </p>
+      <p>Co-created a compassionate telehealth experience that supports new parents with personalised care pathways, proactive check-ins, and a library of warm, trustworthy resources.</p>
+    </div>
+  </section>
+
+  <main class="project-layout">
+    <section>
+      <h2>Challenge</h2>
+      <p>New parents often feel overwhelmed when navigating remote care. Clinics provide a patchwork of portals, forms and chatbots that rarely connect. Our challenge was to design an onboarding-to-support journey that feels cohesive, personal and calming.</p>
+    </section>
+    <section>
+      <h2>Approach</h2>
+      <ul>
+        <li>Mapped end-to-end service blueprint after interviewing six first-time parents and two midwives.</li>
+        <li>Co-facilitated journey mapping workshop with client stakeholders to align on moments that matter most.</li>
+        <li>Prototyped adaptive onboarding that adjusts care modules based on family goals, wellbeing check-ins and support preferences.</li>
+        <li>Ran moderated usability tests, iterating microcopy and dashboard layout to reduce overwhelm.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Outcome</h2>
+      <p>The final prototype guided parents through compassionate onboarding, included a calming “today” overview with three focus tasks, and surfaced human support through easy scheduling and chat. Usability testing showed a 42% increase in task confidence and interviews highlighted how the tone “felt like a warm hug.”</p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Ines Duarte. Crafted with empathy.
+  </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
