@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Storyline Library case study by Ines Duarte — reimagining a digital library with inclusive design systems.">
+  <title>Storyline Library · Ines Duarte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav-bar">
+      <a class="nav-brand" href="index.html">Ines Duarte</a>
+      <nav aria-label="Secondary navigation">
+        <ul>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="project-hero">
+    <div class="content">
+      <a class="back-link" href="index.html#projects">← Back to projects</a>
+      <h1>Storyline Library — designing for quiet delight</h1>
+      <p class="project-meta">
+        <span>Role: UI Designer & Design System Lead</span>
+        <span>Timeline: 8 weeks</span>
+        <span>Tools: Figma, After Effects</span>
+      </p>
+      <p>Reimagined a digital library platform with inclusive typography, story-first navigation and soft interactions that invite readers to linger.</p>
+    </div>
+  </section>
+
+  <main class="project-layout">
+    <section>
+      <h2>Context</h2>
+      <p>The existing product struggled with accessibility and a dated brand. Readers felt rushed by transactional UI and couldn’t easily discover new authors. We set out to craft a system that honoured quiet reading rituals.</p>
+    </section>
+    <section>
+      <h2>Design system</h2>
+      <ul>
+        <li>Developed a modular component library with responsive card grids, shelf layouts and motion tokens.</li>
+        <li>Created a typographic scale blending Playfair Display and modern sans-serifs for readability across devices.</li>
+        <li>Delivered contrast-safe palettes anchored in dusty rose, dawn beige and midnight ink.</li>
+        <li>Documented tone of voice guidelines and empty states that celebrate curiosity instead of urgency.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Results</h2>
+      <p>Post-launch analytics showed a 35% increase in time spent exploring collections and a 22% lift in saved titles. The design system now powers future campaigns and seasonal storytelling experiments.</p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Ines Duarte. Crafted with empathy.
+  </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
